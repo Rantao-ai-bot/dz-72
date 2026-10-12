@@ -4,31 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/main.min.css">
 </head>
 <body>
-    <div class="item-card item-card--legendary">
-  <img
-    class="item-card__image"
-    src="https://th.bing.com/th/id/OIP.GEX0YvrwqaYteQpiGPVSJAHaEJ?w=285&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
-    alt="Легендарний меч"
-  />
+  <section class="pricing">
+  <div class="pricing__list">
 
-  <div class="item-card__content">
-    <h2 class="item-card__title">Меч Вогняного Дракона</h2>
+    <article class="price-card">
+      <h2 class="price-card__title">Starter</h2>
+      <p class="price-card__price">€9<span>/міс.</span></p>
 
-    <p class="item-card__type">Тип: Меч</p>
+      <ul class="price-card__features">
+        <li>✓ 5 проєктів</li>
+        <li>✓ 10 ГБ сховища</li>
+        <li>✓ Базова підтримка</li>
+      </ul>
 
-    <p class="item-card__description">
-      Стародавній меч, який був викуваний у полум'ї дракона.
-      Дає власнику силу вогню.
-    </p>
+      <button class="price-card__button">
+        Обрати тариф
+      </button>
+    </article>
 
-    <p class="item-card__rarity">Рідкість: Легендарний</p>
+    <article class="price-card price-card--pro">
+      <span class="price-card__badge">Рекомендовано</span>
 
-    <p class="item-card__price">2500 золота</p>
+      <h2 class="price-card__title">Pro</h2>
+      <p class="price-card__price">€19<span>/міс.</span></p>
 
-    <button class="item-card__button">Придбати</button>
+      <ul class="price-card__features">
+        <li>✓ 20 проєктів</li>
+        <li>✓ 100 ГБ сховища</li>
+        <li>✓ Пріоритетна підтримка</li>
+      </ul>
+
+      <button class="price-card__button">
+        Обрати тариф
+      </button>
+    </article>
+
+    <article class="price-card">
+      <h2 class="price-card__title">Legendary</h2>
+      <p class="price-card__price">€39<span>/міс.</span></p>
+
+      <ul class="price-card__features">
+        <li>✓ Необмежені проєкти</li>
+        <li>✓ 1 ТБ сховища</li>
+        <li>✓ VIP-підтримка</li>
+      </ul>
+
+      <button class="price-card__button">
+        Обрати тариф
+      </button>
+    </article>
+
   </div>
-</div>
+</section>
 </body>
 </html>

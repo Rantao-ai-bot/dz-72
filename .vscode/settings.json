@@ -3,7 +3,7 @@
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": "/syle"
+            "savePath": "/style"
         },
         {
             "extensionName": ".min.css",
@@ -12,9 +12,12 @@
         }
     ],
     "liveSassCompile.settings.excludeList": [
-        "**/node_modules/**",
-        ".vscode/**"
+        "/**/node_modules/**",
+        "/.vscode/**"
     ],
     "liveSassCompile.settings.generateMap": true,
-    "liveSassCompile.settings.autoprefix": ["defaults"]
+    "liveSassCompile.settings.autoprefix": [
+        "defaults"
+    ],
+    "liveServer.settings.port": 5501
 }

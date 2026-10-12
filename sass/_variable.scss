@@ -1,0 +1,61 @@
+/* Палітра 1 — світла */
+$palette-light: (
+  "background": #f4f6fb,
+  "card": #ffffff,
+  "text": #20263a,
+  "muted": #727b90,
+  "accent": #4263eb,
+  "accent-hover": #304fc7,
+  "border": #e0e5ef,
+  "badge": #e4eaff
+);
+
+/* Палітра 2 — темна */
+$palette-dark: (
+  "background": #101522,
+  "card": #1b2335,
+  "text": #f4f6ff,
+  "muted": #aab4ca,
+  "accent": #a78bfa,
+  "accent-hover": #8b6cf0,
+  "border": #343e54,
+  "badge": #373052
+);
+
+/* Вибір палітри */
+$palette: $palette-light;
+// $palette: $palette-dark;
+
+/* Кольори */
+$color-background: map-get($palette, "background");
+$color-card: map-get($palette, "card");
+$color-text: map-get($palette, "text");
+$color-muted: map-get($palette, "muted");
+$color-accent: map-get($palette, "accent");
+$color-accent-hover: map-get($palette, "accent-hover");
+$color-border: map-get($palette, "border");
+$color-badge: map-get($palette, "badge");
+
+/* Відступи */
+$space-base: 8px;
+$space-1: $space-base;
+$space-2: $space-base * 2;
+$space-3: $space-base * 3;
+$space-4: $space-base * 4;
+$space-5: $space-base * 5;
+
+/* Заокруглення */
+$radius-small: 8px;
+$radius-medium: 16px;
+$radius-large: 24px;
+$radius-pill: 999px;
+
+/* Тіні */
+$shadow-card: 0 8px 24px rgba(0, 0, 0, 0.08);
+$shadow-hover: 0 16px 36px rgba(0, 0, 0, 0.14);
+$shadow-pro: 0 12px 32px rgba(66, 99, 235, 0.2);
+
+/* Інші змінні */
+$transition: 0.25s ease;
+$font-family: Arial, sans-serif;
+$card-width: 320px;
